@@ -1,3 +1,3 @@
 [console_scripts]
-initialGoalpub = initialGoalpub_py.initialGoalpub:main
+talk = initialGoalpub_py.initialGoalpub:main
 

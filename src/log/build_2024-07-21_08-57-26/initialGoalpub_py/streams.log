@@ -1,0 +1,40 @@
+[0.806s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/initialGoalpub_py': PYTHONPATH=/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/initialGoalpub_py build --build-base /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build install --record /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/install.log --install-scripts $base/lib/initialGoalpub_py --single-version-externally-managed install_data
+[1.078s] running egg_info
+[1.079s] creating ../build/initialGoalpub_py/initialGoalpub_py.egg-info
+[1.079s] writing ../build/initialGoalpub_py/initialGoalpub_py.egg-info/PKG-INFO
+[1.080s] writing dependency_links to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/dependency_links.txt
+[1.080s] writing entry points to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/entry_points.txt
+[1.081s] writing requirements to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/requires.txt
+[1.081s] writing top-level names to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/top_level.txt
+[1.083s] writing manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'
+[1.136s] reading manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'
+[1.139s] writing manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'
+[1.139s] running build
+[1.140s] running build_py
+[1.140s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build
+[1.140s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib
+[1.140s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py
+[1.141s] copying initialGoalpub_py/initialGoalpub.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py
+[1.142s] copying initialGoalpub_py/test.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py
+[1.143s] copying initialGoalpub_py/__init__.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py
+[1.143s] running install
+[1.145s] running install_lib
+[1.147s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py
+[1.147s] copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/initialGoalpub.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py
+[1.148s] copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/test.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py
+[1.150s] copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/__init__.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py
+[1.152s] byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/initialGoalpub.py to initialGoalpub.cpython-38.pyc
+[1.157s] byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/test.py to test.cpython-38.pyc
+[1.160s] byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/__init__.py to __init__.cpython-38.pyc
+[1.162s] running install_data
+[1.164s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index
+[1.164s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index
+[1.164s] creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index/packages
+[1.165s] copying resource/initialGoalpub_py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index/packages
+[1.173s] copying package.xml -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/initialGoalpub_py
+[1.174s] running install_egg_info
+[1.177s] Copying ../build/initialGoalpub_py/initialGoalpub_py.egg-info to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py-0.0.0-py3.8.egg-info
+[1.184s] running install_scripts
+[1.208s] Installing initialGoalpub script to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/initialGoalpub_py
+[1.209s] writing list of installed files to '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/install.log'
+[1.238s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/initialGoalpub_py' returned '0': PYTHONPATH=/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/initialGoalpub_py build --build-base /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build install --record /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/install.log --install-scripts $base/lib/initialGoalpub_py --single-version-externally-managed install_data

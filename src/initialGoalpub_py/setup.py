@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'initialGoalpub = initialGoalpub_py.initialGoalpub:main'
+            'talk = initialGoalpub_py.initialGoalpub:main'
         ],
     },
 )

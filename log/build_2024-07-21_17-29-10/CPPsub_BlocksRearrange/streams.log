@@ -1,0 +1,11 @@
+[0.028s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
+[0.074s] [35m[1mScanning dependencies of target lis[0m
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
+[0.322s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:6:10:[m[K [01;31m[Kfatal error: [m[KBlockArrangmentAlgorithm.hpp: No such file or directory
+[0.322s]     6 | #include [01;31m[K"BlockArrangmentAlgorithm.hpp"[m[K
+[0.322s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.322s] compilation terminated.
+[0.331s] make[2]: *** [CMakeFiles/lis.dir/build.make:63: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o] Error 1
+[0.332s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lis.dir/all] Error 2
+[0.332s] make: *** [Makefile:141: all] Error 2
+[0.335s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8

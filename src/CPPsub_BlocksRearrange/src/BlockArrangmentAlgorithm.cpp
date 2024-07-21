@@ -5,7 +5,9 @@
 #include <unordered_set>
 #include <algorithm>
 #include <sstream>
-#include "BlockArrangmentAlgorithm.hpp"
+// #include "BlockArrangmentAlgorithm.hpp"
+#include "../include/CPPsub_BlocksRearrange/BlockArrangmentAlgorithm.hpp"
+
 
 /*==========================================================================*/
 /*============================ StateSpace class ============================*/

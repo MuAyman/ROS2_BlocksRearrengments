@@ -1,8 +1,12 @@
 #include <memory>
 
-// #include "rclcpp/rclcpp.hpp"
-// #include "std_msgs/msg/string.hpp"
-#include "BlockArrangmentAlgorithm.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+
+// #include "BlockArrangmentAlgorithm.hpp"
+#include "../include/CPPsub_BlocksRearrange/BlockArrangmentAlgorithm.hpp"
+
+
 using std::placeholders::_1;
 
 class blockArrangementSub : public rclcpp::Node
@@ -12,13 +16,14 @@ class blockArrangementSub : public rclcpp::Node
     : Node("BlockArrange_subscriber")
     {
       subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 13, std::bind(&blockArrangementSub::topic_callback, this, _1));
+      "initGoalTopic", 13, std::bind(&blockArrangementSub::topic_callback, this, _1));
     }
 
   private:
     void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
     {
       RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());
+      // BFSAlgorithm solve(msg->data.c_str())
 
     }
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;

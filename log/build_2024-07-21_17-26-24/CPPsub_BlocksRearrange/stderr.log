@@ -1,0 +1,8 @@
+WARNING: Package name "CPPsub_BlocksRearrange" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:6:10:[m[K [01;31m[Kfatal error: [m[KBlockArrangmentAlgorithm.hpp: No such file or directory
+    6 | #include [01;31m[K"BlockArrangmentAlgorithm.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/lis.dir/build.make:63: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lis.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

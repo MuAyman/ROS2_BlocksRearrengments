@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:34 (install):
+  install TARGETS given target "initialGoalpub" which does not exist.
+
+
+WARNING: Package name "CPPsub_BlocksRearrange" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+make: *** [Makefile:266: cmake_check_build_system] Error 1

@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (CPPsub_BlocksRearrange) JobQueued: {'identifier': 'CPPsub_BlocksRearrange', 'dependencies': OrderedDict()}
+[0.000743] (initialGoalpub_py) JobQueued: {'identifier': 'initialGoalpub_py', 'dependencies': OrderedDict()}
+[0.001017] (CPPsub_BlocksRearrange) JobStarted: {'identifier': 'CPPsub_BlocksRearrange'}
+[0.007549] (initialGoalpub_py) JobStarted: {'identifier': 'initialGoalpub_py'}
+[0.020981] (CPPsub_BlocksRearrange) JobProgress: {'identifier': 'CPPsub_BlocksRearrange', 'progress': 'cmake'}
+[0.021855] (CPPsub_BlocksRearrange) Command: {'cmd': ['/usr/bin/cmake', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange', '-DCMAKE_INSTALL_PREFIX=/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/CPPsub_BlocksRearrange'], 'cwd': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/CPPsub_BlocksRearrange', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'muayman17'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/muayman17'), ('OLDPWD', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1553'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'muayman17'), ('JOURNAL_STREAM', '8:45564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'muayman17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/muayman17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/muayman17-HP-ENVY:@/tmp/.ICE-unix/1737,unix/muayman17-HP-ENVY:/tmp/.ICE-unix/1737'), ('INVOCATION_ID', '9b3a5e1ce8a8454c8cf7cef427dd4933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb10380b_57a7_49a5_b8a8_22b677812076'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7089'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/CPPsub_BlocksRearrange'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.087614] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099722] (-) TimerEvent: {}
+[0.152021] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.158870] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199840] (-) TimerEvent: {}
+[0.253846] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.255526] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300651] (-) TimerEvent: {}
+[0.356319] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.372145] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.372499] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.378311] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400684] (-) TimerEvent: {}
+[0.501084] (-) TimerEvent: {}
+[0.507781] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.509760] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601158] (-) TimerEvent: {}
+[0.635648] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.649881] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.650460] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.654725] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.678518] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.678856] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.701245] (-) TimerEvent: {}
+[0.801544] (-) TimerEvent: {}
+[0.808857] (initialGoalpub_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/initialGoalpub_py', 'build', '--build-base', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build', 'install', '--record', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/install.log', '--install-scripts', '$base/lib/initialGoalpub_py', '--single-version-externally-managed', 'install_data'], 'cwd': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/initialGoalpub_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muayman17', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '1699', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/muayman17', 'OLDPWD': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '1553', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'muayman17', 'JOURNAL_STREAM': '8:45564', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muayman17', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/muayman17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/muayman17-HP-ENVY:@/tmp/.ICE-unix/1737,unix/muayman17-HP-ENVY:/tmp/.ICE-unix/1737', 'INVOCATION_ID': '9b3a5e1ce8a8454c8cf7cef427dd4933', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bb10380b_57a7_49a5_b8a8_22b677812076', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.7089', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'INSIDE_NAUTILUS_PYTHON': '', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.901637] (-) TimerEvent: {}
+[0.921532] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.978834] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.985694] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.001740] (-) TimerEvent: {}
+[1.079288] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.085626] (initialGoalpub_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.086484] (initialGoalpub_py) StdoutLine: {'line': b'creating ../build/initialGoalpub_py/initialGoalpub_py.egg-info\n'}
+[1.086801] (initialGoalpub_py) StdoutLine: {'line': b'writing ../build/initialGoalpub_py/initialGoalpub_py.egg-info/PKG-INFO\n'}
+[1.087594] (initialGoalpub_py) StdoutLine: {'line': b'writing dependency_links to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/dependency_links.txt\n'}
+[1.088015] (initialGoalpub_py) StdoutLine: {'line': b'writing entry points to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/entry_points.txt\n'}
+[1.088364] (initialGoalpub_py) StdoutLine: {'line': b'writing requirements to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/requires.txt\n'}
+[1.088621] (initialGoalpub_py) StdoutLine: {'line': b'writing top-level names to ../build/initialGoalpub_py/initialGoalpub_py.egg-info/top_level.txt\n'}
+[1.090684] (initialGoalpub_py) StdoutLine: {'line': b"writing manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'\n"}
+[1.101816] (-) TimerEvent: {}
+[1.118069] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.143732] (initialGoalpub_py) StdoutLine: {'line': b"reading manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'\n"}
+[1.146809] (initialGoalpub_py) StdoutLine: {'line': b"writing manifest file '../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'\n"}
+[1.147221] (initialGoalpub_py) StdoutLine: {'line': b'running build\n'}
+[1.147489] (initialGoalpub_py) StdoutLine: {'line': b'running build_py\n'}
+[1.147755] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build\n'}
+[1.148006] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib\n'}
+[1.148258] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py\n'}
+[1.148494] (initialGoalpub_py) StdoutLine: {'line': b'copying initialGoalpub_py/initialGoalpub.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py\n'}
+[1.149533] (initialGoalpub_py) StdoutLine: {'line': b'copying initialGoalpub_py/test.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py\n'}
+[1.150581] (initialGoalpub_py) StdoutLine: {'line': b'copying initialGoalpub_py/__init__.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py\n'}
+[1.151316] (initialGoalpub_py) StdoutLine: {'line': b'running install\n'}
+[1.152595] (initialGoalpub_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.154334] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py\n'}
+[1.154878] (initialGoalpub_py) StdoutLine: {'line': b'copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/initialGoalpub.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py\n'}
+[1.156041] (initialGoalpub_py) StdoutLine: {'line': b'copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/test.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py\n'}
+[1.157352] (initialGoalpub_py) StdoutLine: {'line': b'copying /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/build/lib/initialGoalpub_py/__init__.py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py\n'}
+[1.159460] (initialGoalpub_py) StdoutLine: {'line': b'byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/initialGoalpub.py to initialGoalpub.cpython-38.pyc\n'}
+[1.164635] (initialGoalpub_py) StdoutLine: {'line': b'byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/test.py to test.cpython-38.pyc\n'}
+[1.167609] (initialGoalpub_py) StdoutLine: {'line': b'byte-compiling /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py/__init__.py to __init__.cpython-38.pyc\n'}
+[1.169354] (initialGoalpub_py) StdoutLine: {'line': b'running install_data\n'}
+[1.170345] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index\n'}
+[1.171622] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index\n'}
+[1.171996] (initialGoalpub_py) StdoutLine: {'line': b'creating /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index/packages\n'}
+[1.172348] (initialGoalpub_py) StdoutLine: {'line': b'copying resource/initialGoalpub_py -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/ament_index/resource_index/packages\n'}
+[1.180374] (initialGoalpub_py) StdoutLine: {'line': b'copying package.xml -> /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/share/initialGoalpub_py\n'}
+[1.182087] (initialGoalpub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.184682] (initialGoalpub_py) StdoutLine: {'line': b'Copying ../build/initialGoalpub_py/initialGoalpub_py.egg-info to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py-0.0.0-py3.8.egg-info\n'}
+[1.191509] (initialGoalpub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201908] (-) TimerEvent: {}
+[1.215840] (initialGoalpub_py) StdoutLine: {'line': b'Installing initialGoalpub script to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/initialGoalpub_py/lib/initialGoalpub_py\n'}
+[1.216785] (initialGoalpub_py) StdoutLine: {'line': b"writing list of installed files to '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/initialGoalpub_py/install.log'\n"}
+[1.226192] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.244955] (initialGoalpub_py) CommandEnded: {'returncode': 0}
+[1.266921] (initialGoalpub_py) JobEnded: {'identifier': 'initialGoalpub_py', 'rc': 0}
+[1.301036] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.301965] (-) TimerEvent: {}
+[1.302372] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.304729] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402069] (-) TimerEvent: {}
+[1.405337] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.406135] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502171] (-) TimerEvent: {}
+[1.502735] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.503337] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.590273] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.590731] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.602275] (-) TimerEvent: {}
+[1.690521] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.692447] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702386] (-) TimerEvent: {}
+[1.802791] (-) TimerEvent: {}
+[1.867679] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.902907] (-) TimerEvent: {}
+[1.918430] (CPPsub_BlocksRearrange) StderrLine: {'line': b'WARNING: Package name "CPPsub_BlocksRearrange" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.955068] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.967628] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.968097] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include\n'}
+[1.968391] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.979702] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.980207] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.985360] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.999491] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.999932] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.001748] (CPPsub_BlocksRearrange) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.002965] (-) TimerEvent: {}
+[2.015223] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.020372] (CPPsub_BlocksRearrange) StderrLine: {'line': b'CMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[2.020677] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.020833] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.021006] (CPPsub_BlocksRearrange) StderrLine: {'line': b'    src/main.cpp\n'}
+[2.021150] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.021290] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[2.021430] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[2.021594] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.021745] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.021880] (CPPsub_BlocksRearrange) StderrLine: {'line': b'CMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[2.022015] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  No SOURCES given to target: BlockArrangmentAlgorithm\n'}
+[2.022149] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.022283] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\n'}
+[2.022417] (CPPsub_BlocksRearrange) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[2.026124] (CPPsub_BlocksRearrange) CommandEnded: {'returncode': 1}
+[2.053364] (CPPsub_BlocksRearrange) JobEnded: {'identifier': 'CPPsub_BlocksRearrange', 'rc': 1}
+[2.064296] (-) EventReactorShutdown: {}

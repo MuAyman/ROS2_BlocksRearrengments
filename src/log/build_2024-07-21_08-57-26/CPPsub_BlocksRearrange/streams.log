@@ -1,0 +1,63 @@
+[0.024s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange -DCMAKE_INSTALL_PREFIX=/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/CPPsub_BlocksRearrange
+[0.087s] -- The C compiler identification is GNU 9.4.0
+[0.151s] -- The CXX compiler identification is GNU 9.4.0
+[0.158s] -- Check for working C compiler: /usr/bin/cc
+[0.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.255s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.371s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.509s] -- Detecting CXX compiler ABI info
+[0.635s] -- Detecting CXX compiler ABI info - done
+[0.649s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.678s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.678s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.921s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.985s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.079s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.117s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.300s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Looking for pthread.h
+[1.404s] -- Looking for pthread.h - found
+[1.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.502s] -- Looking for pthread_create in pthreads
+[1.589s] -- Looking for pthread_create in pthreads - not found
+[1.590s] -- Looking for pthread_create in pthread
+[1.690s] -- Looking for pthread_create in pthread - found
+[1.692s] -- Found Threads: TRUE  
+[1.867s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.918s] WARNING: Package name "CPPsub_BlocksRearrange" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.954s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.967s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.967s] -- Configured cppcheck include dirs: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include
+[1.967s] -- Configured cppcheck exclude dirs and/or files: 
+[1.979s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.979s] -- Configured cpplint exclude dirs and/or files: 
+[1.985s] -- Added test 'lint_cmake' to check CMake code style
+[1.999s] -- Added test 'uncrustify' to check C / C++ code style
+[1.999s] -- Configured uncrustify additional arguments: 
+[2.001s] -- Added test 'xmllint' to check XML markup files
+[2.014s] -- Configuring done
+[2.019s] CMake Error at CMakeLists.txt:30 (add_executable):
+[2.020s]   Cannot find source file:
+[2.020s] 
+[2.020s]     src/main.cpp
+[2.020s] 
+[2.020s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[2.020s]   .hpp .hxx .in .txx
+[2.021s] 
+[2.021s] 
+[2.021s] CMake Error at CMakeLists.txt:30 (add_executable):
+[2.021s]   No SOURCES given to target: BlockArrangmentAlgorithm
+[2.021s] 
+[2.021s] 
+[2.021s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.025s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/build/CPPsub_BlocksRearrange' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange -DCMAKE_INSTALL_PREFIX=/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/install/CPPsub_BlocksRearrange
