@@ -6,7 +6,7 @@ class initialGoalPub(Node):
     def __init__(self):
         super().__init__("initGoalPub")
         self.publisher_ = self.create_publisher(String, "initGoalTopic", 13)
-        time_period = 0.5
+        time_period = 1
         self.timer = self.create_timer(time_period, self.timer_callback)
         self.counter = 1
         self.max_test_cases = 13  # Set the maximum number of test cases

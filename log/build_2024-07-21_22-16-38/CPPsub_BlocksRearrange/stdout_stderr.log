@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target lis[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:[m[K In function ‘[01m[Kbool IsGoal(const State&, const State&)[m[K’:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:81:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   81 | bool IsGoal(const State &current, [01;35m[Kconst State &goal[m[K)
+      |                                   [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:[m[K In function ‘[01m[Kstd::vector<StateSpace> getNextStates(const StateSpace&)[m[K’:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:105:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  105 |   for (int i = 0; [01;35m[Ki < current.state.size()[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:112:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  112 |       for (int j = 0; [01;35m[Kj < current.state.size()[m[K; ++j)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:127:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  127 |       for (int j = 0; [01;35m[Kj < current.state.size()[m[K; ++j)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:[m[K In function ‘[01m[Kvoid countMatches(StateSpace&, const State&)[m[K’:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:171:54:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Block>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  171 |           while (curStack[counter].isgoal && [01;35m[Kcounter < curStack.size() - 1[m[K && counter < goalStack.size() - 1) // extend the checking to the elements above
+      |                                              [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:171:87:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Block>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  171 |           while (curStack[counter].isgoal && counter < curStack.size() - 1 && [01;35m[Kcounter < goalStack.size() - 1[m[K) // extend the checking to the elements above
+      |                                                                               [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:[m[K At global scope:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:231:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  231 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable lis[0m
+[100%] Built target lis
+-- Install configuration: ""
+-- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis
+-- Set runtime path of "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis" to ""
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/package_run_dependencies/CPPsub_BlocksRearrange
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/parent_prefix_path/CPPsub_BlocksRearrange
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.sh
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.dsv
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.sh
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.dsv
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.bash
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.sh
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.zsh
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.dsv
+-- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.dsv
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/packages/CPPsub_BlocksRearrange
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig.cmake
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig-version.cmake
+-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.xml

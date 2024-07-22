@@ -1,0 +1,124 @@
+[0.034s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
+[0.081s] [35m[1mScanning dependencies of target lis[0m
+[0.235s] [ 50%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
+[2.704s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:11[m[K:
+[2.705s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State)[m[K’:
+[2.706s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:33:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.706s]    33 |      StateSpace([01;35m[KState s[m[K) {}
+[2.707s]       |                 [01;35m[K~~~~~~^[m[K
+[2.707s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’:
+[2.708s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:34:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.708s]    34 |      StateSpace([01;35m[KState s[m[K, Moves m) {}
+[2.709s]       |                 [01;35m[K~~~~~~^[m[K
+[2.709s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:34:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.710s]    34 |      StateSpace(State s, [01;35m[KMoves m[m[K) {}
+[2.710s]       |                          [01;35m[K~~~~~~^[m[K
+[2.711s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’:
+[2.711s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:35:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.712s]    35 |      StateSpace([01;35m[KState s[m[K, Moves m, int f) {}
+[2.713s]       |                 [01;35m[K~~~~~~^[m[K
+[2.713s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:35:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.714s]    35 |      StateSpace(State s, [01;35m[KMoves m[m[K, int f) {}
+[2.714s]       |                          [01;35m[K~~~~~~^[m[K
+[2.714s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:35:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.715s]    35 |      StateSpace(State s, Moves m, [01;35m[Kint f[m[K) {}
+[2.716s]       |                                   [01;35m[K~~~~^[m[K
+[2.716s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setState(State)[m[K’:
+[2.716s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.717s]    38 |      void setState([01;35m[KState s[m[K) {};
+[2.717s]       |                    [01;35m[K~~~~~~^[m[K
+[2.718s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’:
+[2.718s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:39:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.719s]    39 |      void setMoves([01;35m[KMoves m[m[K) {};
+[2.719s]       |                    [01;35m[K~~~~~~^[m[K
+[2.720s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’:
+[2.720s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.721s]    40 |      void setFixedCount([01;35m[Kint f[m[K) {};
+[2.721s]       |                         [01;35m[K~~~~^[m[K
+[2.722s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[KState StateSpace::getState() const[m[K’:
+[2.722s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:43:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.723s]    43 |      State getState() const {[01;35m[K}[m[K;
+[2.723s]       |                              [01;35m[K^[m[K
+[2.724s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[KMoves StateSpace::getMoves() const[m[K’:
+[2.724s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:44:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.725s]    44 |      Moves getMoves() const {[01;35m[K}[m[K;
+[2.725s]       |                              [01;35m[K^[m[K
+[2.726s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[Kint StateSpace::getFixedCount() const[m[K’:
+[2.726s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:45:33:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.727s]    45 |      int getFixedCount() const {[01;35m[K}[m[K;
+[2.727s]       |                                 [01;35m[K^[m[K
+[2.728s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:[m[K In member function ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’:
+[2.728s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:48:53:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.729s]    48 |      bool operator<(const StateSpace &other) const {[01;35m[K}[m[K;
+[2.729s]       |                                                     [01;35m[K^[m[K
+[2.730s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.h:48:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.730s]    48 |      bool operator<([01;35m[Kconst StateSpace &other[m[K) const {};
+[2.731s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.731s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:12[m[K:
+[2.732s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In constructor ‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’:
+[2.732s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.733s]    38 |      BFSAlgorithm([01;35m[Kstring pub_msg[m[K) {}
+[2.734s]       |                   [01;35m[K~~~~~~~^~~~~~~[m[K
+[2.734s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:12[m[K:
+[2.735s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’:
+[2.735s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:41:65:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.736s]    41 |      vector<string> StringToVector(string pub_msg, char delim) {[01;35m[K}[m[K
+[2.736s]       |                                                                 [01;35m[K^[m[K
+[2.737s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:41:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.737s]    41 |      vector<string> StringToVector([01;35m[Kstring pub_msg[m[K, char delim) {}
+[2.738s]       |                                    [01;35m[K~~~~~~~^~~~~~~[m[K
+[2.738s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:41:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdelim[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.739s]    41 |      vector<string> StringToVector(string pub_msg, [01;35m[Kchar delim[m[K) {}
+[2.739s]       |                                                    [01;35m[K~~~~~^~~~~[m[K
+[2.740s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’:
+[2.740s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:44:55:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.741s]    44 |      string VectorToString(const State &state) const {[01;35m[K}[m[K
+[2.741s]       |                                                       [01;35m[K^[m[K
+[2.742s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:44:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.742s]    44 |      string VectorToString([01;35m[Kconst State &state[m[K) const {}
+[2.743s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[2.743s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’:
+[2.744s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:47:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.745s]    47 |      bool IsGoal(const State &current) const {[01;35m[K}[m[K
+[2.745s]       |                                               [01;35m[K^[m[K
+[2.746s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:47:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.746s]    47 |      bool IsGoal([01;35m[Kconst State &current[m[K) const {}
+[2.747s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[2.747s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’:
+[2.748s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:50:73:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.748s]    50 |      vector<StateSpace> getNextStates(const StateSpace &current) const {[01;35m[K}[m[K
+[2.749s]       |                                                                         [01;35m[K^[m[K
+[2.749s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:50:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.750s]    50 |      vector<StateSpace> getNextStates([01;35m[Kconst StateSpace &current[m[K) const {}
+[2.750s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.751s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’:
+[2.751s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:53:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.752s]    53 |      void countMatches([01;35m[KStateSpace &current[m[K) {}
+[2.752s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[2.753s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:[m[K In member function ‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’:
+[2.753s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.h:56:29:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.753s]    56 |      Moves BFS_Algorithm() {[01;35m[K}[m[K
+[2.754s]       |                             [01;35m[K^[m[K
+[8.498s] [100%] [32m[1mLinking CXX executable lis[0m
+[9.253s] [100%] Built target lis
+[9.275s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
+[9.341s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --install /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange
+[9.356s] -- Install configuration: ""
+[9.359s] -- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis
+[9.392s] -- Set runtime path of "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis" to ""
+[9.394s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/package_run_dependencies/CPPsub_BlocksRearrange
+[9.396s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/parent_prefix_path/CPPsub_BlocksRearrange
+[9.397s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.sh
+[9.399s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.dsv
+[9.400s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.sh
+[9.402s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.dsv
+[9.403s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.bash
+[9.404s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.sh
+[9.406s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.zsh
+[9.407s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.dsv
+[9.409s] -- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.dsv
+[9.416s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/packages/CPPsub_BlocksRearrange
+[9.417s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig.cmake
+[9.419s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig-version.cmake
+[9.421s] -- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.xml
+[9.426s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --install /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange

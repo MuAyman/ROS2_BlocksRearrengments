@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (CPPsub_BlocksRearrange) JobQueued: {'identifier': 'CPPsub_BlocksRearrange', 'dependencies': OrderedDict()}
+[0.000486] (initialGoalpub_py) JobQueued: {'identifier': 'initialGoalpub_py', 'dependencies': OrderedDict()}
+[0.000571] (CPPsub_BlocksRearrange) JobStarted: {'identifier': 'CPPsub_BlocksRearrange'}
+[0.010248] (initialGoalpub_py) JobStarted: {'identifier': 'initialGoalpub_py'}
+[0.024324] (CPPsub_BlocksRearrange) JobProgress: {'identifier': 'CPPsub_BlocksRearrange', 'progress': 'cmake'}
+[0.026305] (CPPsub_BlocksRearrange) JobProgress: {'identifier': 'CPPsub_BlocksRearrange', 'progress': 'build'}
+[0.027737] (CPPsub_BlocksRearrange) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange', '--', '-j8', '-l8'], 'cwd': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'muayman17'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/muayman17'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1553'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'muayman17'), ('JOURNAL_STREAM', '8:45564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'muayman17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/muayman17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/muayman17-HP-ENVY:@/tmp/.ICE-unix/1737,unix/muayman17-HP-ENVY:/tmp/.ICE-unix/1737'), ('INVOCATION_ID', '9b3a5e1ce8a8454c8cf7cef427dd4933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0cee4ce1_fd18_435c_a62a_9b8afc483ee0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7943'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy')]), 'shell': False}
+[0.084867] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lis\x1b[0m\n'}
+[0.099815] (-) TimerEvent: {}
+[0.200183] (-) TimerEvent: {}
+[0.244655] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o\x1b[0m\n'}
+[0.300293] (-) TimerEvent: {}
+[0.400749] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.601664] (-) TimerEvent: {}
+[0.702062] (-) TimerEvent: {}
+[0.802460] (-) TimerEvent: {}
+[0.885674] (initialGoalpub_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/initialGoalpub_py', 'build', '--build-base', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/initialGoalpub_py/build', 'install', '--record', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/initialGoalpub_py/install.log', '--install-scripts', '$base/lib/initialGoalpub_py', '--single-version-externally-managed', 'install_data'], 'cwd': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/initialGoalpub_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muayman17', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '1699', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/muayman17', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '1553', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'muayman17', 'JOURNAL_STREAM': '8:45564', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muayman17', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/muayman17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/muayman17-HP-ENVY:@/tmp/.ICE-unix/1737,unix/muayman17-HP-ENVY:/tmp/.ICE-unix/1737', 'INVOCATION_ID': '9b3a5e1ce8a8454c8cf7cef427dd4933', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0cee4ce1_fd18_435c_a62a_9b8afc483ee0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.7943', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'INSIDE_NAUTILUS_PYTHON': '', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/initialGoalpub_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/initialGoalpub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange'}, 'shell': False}
+[0.902564] (-) TimerEvent: {}
+[1.002931] (-) TimerEvent: {}
+[1.103401] (-) TimerEvent: {}
+[1.184465] (initialGoalpub_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.185501] (initialGoalpub_py) StdoutLine: {'line': b'writing ../../build/initialGoalpub_py/initialGoalpub_py.egg-info/PKG-INFO\n'}
+[1.186425] (initialGoalpub_py) StdoutLine: {'line': b'writing dependency_links to ../../build/initialGoalpub_py/initialGoalpub_py.egg-info/dependency_links.txt\n'}
+[1.187108] (initialGoalpub_py) StdoutLine: {'line': b'writing entry points to ../../build/initialGoalpub_py/initialGoalpub_py.egg-info/entry_points.txt\n'}
+[1.187730] (initialGoalpub_py) StdoutLine: {'line': b'writing requirements to ../../build/initialGoalpub_py/initialGoalpub_py.egg-info/requires.txt\n'}
+[1.188219] (initialGoalpub_py) StdoutLine: {'line': b'writing top-level names to ../../build/initialGoalpub_py/initialGoalpub_py.egg-info/top_level.txt\n'}
+[1.203493] (-) TimerEvent: {}
+[1.258633] (initialGoalpub_py) StdoutLine: {'line': b"reading manifest file '../../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'\n"}
+[1.266836] (initialGoalpub_py) StdoutLine: {'line': b"writing manifest file '../../build/initialGoalpub_py/initialGoalpub_py.egg-info/SOURCES.txt'\n"}
+[1.267626] (initialGoalpub_py) StdoutLine: {'line': b'running build\n'}
+[1.268182] (initialGoalpub_py) StdoutLine: {'line': b'running build_py\n'}
+[1.270481] (initialGoalpub_py) StdoutLine: {'line': b'running install\n'}
+[1.272238] (initialGoalpub_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.280792] (initialGoalpub_py) StdoutLine: {'line': b'running install_data\n'}
+[1.282198] (initialGoalpub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.285290] (initialGoalpub_py) StdoutLine: {'line': b"removing '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.288304] (initialGoalpub_py) StdoutLine: {'line': b'Copying ../../build/initialGoalpub_py/initialGoalpub_py.egg-info to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages/initialGoalpub_py-0.0.0-py3.8.egg-info\n'}
+[1.301625] (initialGoalpub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.303559] (-) TimerEvent: {}
+[1.335945] (initialGoalpub_py) StdoutLine: {'line': b'Installing talk script to /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/initialGoalpub_py\n'}
+[1.337189] (initialGoalpub_py) StdoutLine: {'line': b"writing list of installed files to '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/initialGoalpub_py/install.log'\n"}
+[1.369660] (initialGoalpub_py) CommandEnded: {'returncode': 0}
+[1.401753] (initialGoalpub_py) JobEnded: {'identifier': 'initialGoalpub_py', 'rc': 0}
+[1.403633] (-) TimerEvent: {}
+[1.503887] (-) TimerEvent: {}
+[1.604270] (-) TimerEvent: {}
+[1.704667] (-) TimerEvent: {}
+[1.805083] (-) TimerEvent: {}
+[1.905580] (-) TimerEvent: {}
+[1.973125] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool IsGoal(const State&, const State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.974127] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:81:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.974655] (CPPsub_BlocksRearrange) StderrLine: {'line': b'   81 | bool IsGoal(const State &current, \x1b[01;35m\x1b[Kconst State &goal\x1b[m\x1b[K)\n'}
+[1.975122] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.979148] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<StateSpace> getNextStates(const StateSpace&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.979700] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:105:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Block> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.980196] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  105 |   for (int i = 0; \x1b[01;35m\x1b[Ki < current.state.size()\x1b[m\x1b[K; ++i)\n'}
+[1.980652] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.981090] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:112:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Block> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.981544] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  112 |       for (int j = 0; \x1b[01;35m\x1b[Kj < current.state.size()\x1b[m\x1b[K; ++j)\n'}
+[1.982002] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.985136] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:127:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Block> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.985649] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  127 |       for (int j = 0; \x1b[01;35m\x1b[Kj < current.state.size()\x1b[m\x1b[K; ++j)\n'}
+[1.986102] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.997714] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid countMatches(StateSpace&, const State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.998400] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:171:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Block>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.998834] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  171 |           while (curStack[counter].isgoal && \x1b[01;35m\x1b[Kcounter < curStack.size() - 1\x1b[m\x1b[K && counter < goalStack.size() - 1) // extend the checking to the elements above\n'}
+[1.999299] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.999750] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:171:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Block>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.000180] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  171 |           while (curStack[counter].isgoal && counter < curStack.size() - 1 && \x1b[01;35m\x1b[Kcounter < goalStack.size() - 1\x1b[m\x1b[K) // extend the checking to the elements above\n'}
+[2.000624] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.005672] (-) TimerEvent: {}
+[2.022773] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.023840] (CPPsub_BlocksRearrange) StderrLine: {'line': b'\x1b[01m\x1b[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:231:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.024359] (CPPsub_BlocksRearrange) StderrLine: {'line': b'  231 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.024825] (CPPsub_BlocksRearrange) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105784] (-) TimerEvent: {}
+[2.206322] (-) TimerEvent: {}
+[2.306880] (-) TimerEvent: {}
+[2.407361] (-) TimerEvent: {}
+[2.507919] (-) TimerEvent: {}
+[2.608545] (-) TimerEvent: {}
+[2.709729] (-) TimerEvent: {}
+[2.810353] (-) TimerEvent: {}
+[2.911031] (-) TimerEvent: {}
+[3.011699] (-) TimerEvent: {}
+[3.112411] (-) TimerEvent: {}
+[3.213026] (-) TimerEvent: {}
+[3.313619] (-) TimerEvent: {}
+[3.414100] (-) TimerEvent: {}
+[3.514663] (-) TimerEvent: {}
+[3.615211] (-) TimerEvent: {}
+[3.715812] (-) TimerEvent: {}
+[3.816413] (-) TimerEvent: {}
+[3.916897] (-) TimerEvent: {}
+[4.017367] (-) TimerEvent: {}
+[4.117833] (-) TimerEvent: {}
+[4.218452] (-) TimerEvent: {}
+[4.318965] (-) TimerEvent: {}
+[4.419481] (-) TimerEvent: {}
+[4.520128] (-) TimerEvent: {}
+[4.620695] (-) TimerEvent: {}
+[4.721208] (-) TimerEvent: {}
+[4.821794] (-) TimerEvent: {}
+[4.922469] (-) TimerEvent: {}
+[5.022981] (-) TimerEvent: {}
+[5.123556] (-) TimerEvent: {}
+[5.224101] (-) TimerEvent: {}
+[5.324675] (-) TimerEvent: {}
+[5.425283] (-) TimerEvent: {}
+[5.525928] (-) TimerEvent: {}
+[5.626665] (-) TimerEvent: {}
+[5.727324] (-) TimerEvent: {}
+[5.827995] (-) TimerEvent: {}
+[5.928647] (-) TimerEvent: {}
+[6.029154] (-) TimerEvent: {}
+[6.129791] (-) TimerEvent: {}
+[6.231437] (-) TimerEvent: {}
+[6.332112] (-) TimerEvent: {}
+[6.432763] (-) TimerEvent: {}
+[6.533431] (-) TimerEvent: {}
+[6.634279] (-) TimerEvent: {}
+[6.735090] (-) TimerEvent: {}
+[6.835814] (-) TimerEvent: {}
+[6.936380] (-) TimerEvent: {}
+[7.037114] (-) TimerEvent: {}
+[7.137872] (-) TimerEvent: {}
+[7.238537] (-) TimerEvent: {}
+[7.339203] (-) TimerEvent: {}
+[7.439728] (-) TimerEvent: {}
+[7.540234] (-) TimerEvent: {}
+[7.640710] (-) TimerEvent: {}
+[7.741196] (-) TimerEvent: {}
+[7.841668] (-) TimerEvent: {}
+[7.942102] (-) TimerEvent: {}
+[8.042664] (-) TimerEvent: {}
+[8.143117] (-) TimerEvent: {}
+[8.243705] (-) TimerEvent: {}
+[8.344238] (-) TimerEvent: {}
+[8.444683] (-) TimerEvent: {}
+[8.545149] (-) TimerEvent: {}
+[8.645750] (-) TimerEvent: {}
+[8.746236] (-) TimerEvent: {}
+[8.846860] (-) TimerEvent: {}
+[8.947461] (-) TimerEvent: {}
+[9.047963] (-) TimerEvent: {}
+[9.148609] (-) TimerEvent: {}
+[9.249247] (-) TimerEvent: {}
+[9.349935] (-) TimerEvent: {}
+[9.450402] (-) TimerEvent: {}
+[9.550835] (-) TimerEvent: {}
+[9.651326] (-) TimerEvent: {}
+[9.751837] (-) TimerEvent: {}
+[9.852353] (-) TimerEvent: {}
+[9.956754] (-) TimerEvent: {}
+[10.057794] (-) TimerEvent: {}
+[10.158306] (-) TimerEvent: {}
+[10.258805] (-) TimerEvent: {}
+[10.359248] (-) TimerEvent: {}
+[10.381347] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lis\x1b[0m\n'}
+[10.459361] (-) TimerEvent: {}
+[10.559886] (-) TimerEvent: {}
+[10.660454] (-) TimerEvent: {}
+[10.761062] (-) TimerEvent: {}
+[10.861618] (-) TimerEvent: {}
+[10.962179] (-) TimerEvent: {}
+[11.062677] (-) TimerEvent: {}
+[11.163279] (-) TimerEvent: {}
+[11.263885] (-) TimerEvent: {}
+[11.364393] (-) TimerEvent: {}
+[11.464865] (-) TimerEvent: {}
+[11.519779] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'[100%] Built target lis\n'}
+[11.545647] (CPPsub_BlocksRearrange) CommandEnded: {'returncode': 0}
+[11.565094] (-) TimerEvent: {}
+[11.600657] (CPPsub_BlocksRearrange) JobProgress: {'identifier': 'CPPsub_BlocksRearrange', 'progress': 'install'}
+[11.631885] (CPPsub_BlocksRearrange) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange'], 'cwd': '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'muayman17'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/muayman17'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1553'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'muayman17'), ('JOURNAL_STREAM', '8:45564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'muayman17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/muayman17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/muayman17-HP-ENVY:@/tmp/.ICE-unix/1737,unix/muayman17-HP-ENVY:/tmp/.ICE-unix/1737'), ('INVOCATION_ID', '9b3a5e1ce8a8454c8cf7cef427dd4933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0cee4ce1_fd18_435c_a62a_9b8afc483ee0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7943'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ceb95deadb64c4f7a3c839a5669b074a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy')]), 'shell': False}
+[11.650492] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.655402] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis\n'}
+[11.665166] (-) TimerEvent: {}
+[11.701276] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Set runtime path of "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/lib/CPPsub_BlocksRearrange/lis" to ""\n'}
+[11.707405] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/package_run_dependencies/CPPsub_BlocksRearrange\n'}
+[11.710359] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/parent_prefix_path/CPPsub_BlocksRearrange\n'}
+[11.711827] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.sh\n'}
+[11.713770] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/ament_prefix_path.dsv\n'}
+[11.715277] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.sh\n'}
+[11.717521] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/environment/path.dsv\n'}
+[11.720742] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.bash\n'}
+[11.722898] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.sh\n'}
+[11.725104] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.zsh\n'}
+[11.727043] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/local_setup.dsv\n'}
+[11.728982] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Installing: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.dsv\n'}
+[11.735708] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/ament_index/resource_index/packages/CPPsub_BlocksRearrange\n'}
+[11.738858] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig.cmake\n'}
+[11.740541] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/cmake/CPPsub_BlocksRearrangeConfig-version.cmake\n'}
+[11.742582] (CPPsub_BlocksRearrange) StdoutLine: {'line': b'-- Up-to-date: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/CPPsub_BlocksRearrange/share/CPPsub_BlocksRearrange/package.xml\n'}
+[11.746928] (CPPsub_BlocksRearrange) CommandEnded: {'returncode': 0}
+[11.765382] (-) TimerEvent: {}
+[11.866511] (-) TimerEvent: {}
+[11.893565] (CPPsub_BlocksRearrange) JobEnded: {'identifier': 'CPPsub_BlocksRearrange', 'rc': 0}
+[11.896398] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10:10:[m[K [01;31m[Kfatal error: [m[KStateSpace.h: No such file or directory
+   10 | #include [01;31m[K"StateSpace.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9:10:[m[K [01;31m[Kfatal error: [m[KBFSAlgorithm.h: No such file or directory
+    9 | #include [01;31m[K"BFSAlgorithm.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/lis.dir/build.make:89: CMakeFiles/lis.dir/src/StateSpace.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/lis.dir/build.make:76: CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o] Error 1
+In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:8[m[K,
+                 from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:6[m[K:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:11:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KStateSpace::[m[K’ on member ‘[01m[KsetBlockGoal[m[K’ [[01;31m[K-fpermissive[m[K]
+   40 |      void [01;31m[KStateSpace[m[K::setBlockGoal(int x, int y);
+      |           [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/lis.dir/build.make:63: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lis.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

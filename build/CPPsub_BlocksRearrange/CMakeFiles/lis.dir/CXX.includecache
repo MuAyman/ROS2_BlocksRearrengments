@@ -6,19 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/BlockArrangmentAlgorithm.hpp
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/BFSAlgorithm.h
+StateSpace.h
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/StateSpace.h
+
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/StateSpace.h
 vector
 -
+string
+-
+
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp
+iostream
+-
+vector
+-
+string
+-
+queue
+-
+unordered_set
+-
+algorithm
+-
+sstream
+-
+../include/CPPsub_BlocksRearrange/BFSAlgorithm.h
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/BFSAlgorithm.h
+../include/CPPsub_BlocksRearrange/StateSpace.h
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/StateSpace.h
 
 /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp
 memory
+-
+iostream
 -
 rclcpp/rclcpp.hpp
 /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/rclcpp/rclcpp.hpp
 std_msgs/msg/string.hpp
 /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/std_msgs/msg/string.hpp
-../include/CPPsub_BlocksRearrange/BlockArrangmentAlgorithm.hpp
-/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/BlockArrangmentAlgorithm.hpp
+../include/CPPsub_BlocksRearrange/BFSAlgorithm.h
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/BFSAlgorithm.h
+../include/CPPsub_BlocksRearrange/StateSpace.h
+/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/include/CPPsub_BlocksRearrange/StateSpace.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

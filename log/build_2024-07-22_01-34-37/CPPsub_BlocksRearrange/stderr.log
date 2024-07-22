@@ -1,0 +1,38 @@
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:63:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   63 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:76:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   76 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:94:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   94 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:[m[K In member function ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:101:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  101 |      for (int i = 0; [01;35m[Ki < current.getState().size()[m[K; ++i)
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:108:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  108 |                for (int j = 0; [01;35m[Kj < current.getState().size()[m[K; ++j)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:123:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Block> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  123 |                for (int j = 0; [01;35m[Kj < current.getState().size()[m[K; ++j)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:[m[K At global scope:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:152:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  152 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:[m[K In member function ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:171:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Block>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  171 |                          while (curStack[counter].isgoal && [01;35m[Kcounter < curStack.size() - 1[m[K && counter < goalStack.size() - 1) // extend the checking to the elements above
+      |                                                             [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:171:102:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Block>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  171 | curStack[counter].isgoal && counter < curStack.size() - 1 && [01;35m[Kcounter < goalStack.size() - 1[m[K) // extend the checking to the elements above
+      |                                                              [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:[m[K At global scope:
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  185 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:222:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  222 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K

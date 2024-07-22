@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o"
   "CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o"
+  "CMakeFiles/lis.dir/src/StateSpace.cpp.o"
   "lis"
   "lis.pdb"
 )
