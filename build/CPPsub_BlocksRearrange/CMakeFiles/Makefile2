@@ -76,12 +76,12 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/lis.dir/all:
 	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/depend
 	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=1,2 "Built target lis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=1,2,3,4 "Built target lis"
 .PHONY : CMakeFiles/lis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" 0
 .PHONY : CMakeFiles/lis.dir/rule

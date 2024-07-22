@@ -70,14 +70,44 @@ CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp" -o CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.s
 
+CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o: CMakeFiles/lis.dir/flags.make
+CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o: /media/muayman17/New/Muhammad/BrightSkies\ Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o -c "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp"
+
+CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp" > CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.i
+
+CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp" -o CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.s
+
+CMakeFiles/lis.dir/src/StateSpace.cpp.o: CMakeFiles/lis.dir/flags.make
+CMakeFiles/lis.dir/src/StateSpace.cpp.o: /media/muayman17/New/Muhammad/BrightSkies\ Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lis.dir/src/StateSpace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lis.dir/src/StateSpace.cpp.o -c "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp"
+
+CMakeFiles/lis.dir/src/StateSpace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lis.dir/src/StateSpace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp" > CMakeFiles/lis.dir/src/StateSpace.cpp.i
+
+CMakeFiles/lis.dir/src/StateSpace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lis.dir/src/StateSpace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp" -o CMakeFiles/lis.dir/src/StateSpace.cpp.s
+
 # Object files for target lis
 lis_OBJECTS = \
-"CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o"
+"CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o" \
+"CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o" \
+"CMakeFiles/lis.dir/src/StateSpace.cpp.o"
 
 # External object files for target lis
 lis_EXTERNAL_OBJECTS =
 
 lis: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o
+lis: CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o
+lis: CMakeFiles/lis.dir/src/StateSpace.cpp.o
 lis: CMakeFiles/lis.dir/build.make
 lis: /opt/ros/foxy/lib/librclcpp.so
 lis: /opt/ros/foxy/lib/liblibstatistics_collector.so
@@ -127,7 +157,7 @@ lis: /opt/ros/foxy/lib/librosidl_runtime_c.so
 lis: /opt/ros/foxy/lib/librcutils.so
 lis: /opt/ros/foxy/lib/libtracetools.so
 lis: CMakeFiles/lis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

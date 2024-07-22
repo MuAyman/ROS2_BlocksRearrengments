@@ -56,5 +56,6 @@
           "cinttypes": "cpp",
           "typeinfo": "cpp",
           "bit": "cpp"
-     }
+     },
+     "cmake.sourceDirectory": "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange"
 }

@@ -206,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/BFSAlgorithm.o: src/BFSAlgorithm.cpp.o
+
+.PHONY : src/BFSAlgorithm.o
+
+# target to build an object file
+src/BFSAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o
+.PHONY : src/BFSAlgorithm.cpp.o
+
+src/BFSAlgorithm.i: src/BFSAlgorithm.cpp.i
+
+.PHONY : src/BFSAlgorithm.i
+
+# target to preprocess a source file
+src/BFSAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.i
+.PHONY : src/BFSAlgorithm.cpp.i
+
+src/BFSAlgorithm.s: src/BFSAlgorithm.cpp.s
+
+.PHONY : src/BFSAlgorithm.s
+
+# target to generate assembly for a file
+src/BFSAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.s
+.PHONY : src/BFSAlgorithm.cpp.s
+
 src/CPPsub_BlocksRearrange.o: src/CPPsub_BlocksRearrange.cpp.o
 
 .PHONY : src/CPPsub_BlocksRearrange.o
@@ -233,6 +260,33 @@ src/CPPsub_BlocksRearrange.cpp.s:
 	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.s
 .PHONY : src/CPPsub_BlocksRearrange.cpp.s
 
+src/StateSpace.o: src/StateSpace.cpp.o
+
+.PHONY : src/StateSpace.o
+
+# target to build an object file
+src/StateSpace.cpp.o:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/StateSpace.cpp.o
+.PHONY : src/StateSpace.cpp.o
+
+src/StateSpace.i: src/StateSpace.cpp.i
+
+.PHONY : src/StateSpace.i
+
+# target to preprocess a source file
+src/StateSpace.cpp.i:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/StateSpace.cpp.i
+.PHONY : src/StateSpace.cpp.i
+
+src/StateSpace.s: src/StateSpace.cpp.s
+
+.PHONY : src/StateSpace.s
+
+# target to generate assembly for a file
+src/StateSpace.cpp.s:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/StateSpace.cpp.s
+.PHONY : src/StateSpace.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +303,15 @@ help:
 	@echo "... lis"
 	@echo "... CPPsub_BlocksRearrange_uninstall"
 	@echo "... uninstall"
+	@echo "... src/BFSAlgorithm.o"
+	@echo "... src/BFSAlgorithm.i"
+	@echo "... src/BFSAlgorithm.s"
 	@echo "... src/CPPsub_BlocksRearrange.o"
 	@echo "... src/CPPsub_BlocksRearrange.i"
 	@echo "... src/CPPsub_BlocksRearrange.s"
+	@echo "... src/StateSpace.o"
+	@echo "... src/StateSpace.i"
+	@echo "... src/StateSpace.s"
 .PHONY : help
 
 

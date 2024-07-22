@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
+[0.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.290s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.331s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] WARNING: Package name "CPPsub_BlocksRearrange" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.788s] -- Configuring done
+[0.823s] -- Generating done
+[0.831s] -- Build files have been written to: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange
+[0.865s] [35m[1mScanning dependencies of target lis[0m
+[1.094s] [ 20%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
+[1.094s] [ 40%] [32mBuilding CXX object CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o[0m
+[1.098s] [ 80%] [32mBuilding CXX object CMakeFiles/lis.dir/src/blockArrangementSub.cpp.o[0m
+[1.099s] [ 80%] [32mBuilding CXX object CMakeFiles/lis.dir/src/StateSpace.cpp.o[0m
+[1.184s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KblockArrangementSub.h: No such file or directory
+[1.184s]     2 | #include [01;31m[K"blockArrangementSub.h"[m[K
+[1.185s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.185s] compilation terminated.
+[1.193s] make[2]: *** [CMakeFiles/lis.dir/build.make:63: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o] Error 1
+[1.193s] make[2]: *** Waiting for unfinished jobs....
+[1.215s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9:10:[m[K [01;31m[Kfatal error: [m[KBFSAlgorithm.h: No such file or directory
+[1.215s]     9 | #include [01;31m[K"BFSAlgorithm.h"[m[K
+[1.216s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.216s] compilation terminated.
+[1.218s] make[2]: *** [CMakeFiles/lis.dir/build.make:76: CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o] Error 1
+[1.225s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10:10:[m[K [01;31m[Kfatal error: [m[KStateSpace.h: No such file or directory
+[1.225s]    10 | #include [01;31m[K"StateSpace.h"[m[K
+[1.225s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.225s] compilation terminated.
+[1.226s] make[2]: *** [CMakeFiles/lis.dir/build.make:102: CMakeFiles/lis.dir/src/StateSpace.cpp.o] Error 1
+[1.355s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5:10:[m[K [01;31m[Kfatal error: [m[KblockArrangementSub.h: No such file or directory
+[1.355s]     5 | #include [01;31m[K"blockArrangementSub.h"[m[K
+[1.355s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.356s] compilation terminated.
+[1.364s] make[2]: *** [CMakeFiles/lis.dir/build.make:89: CMakeFiles/lis.dir/src/blockArrangementSub.cpp.o] Error 1
+[1.365s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lis.dir/all] Error 2
+[1.365s] make: *** [Makefile:141: all] Error 2
+[1.368s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8

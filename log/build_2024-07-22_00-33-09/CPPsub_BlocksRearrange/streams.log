@@ -1,0 +1,623 @@
+[0.033s] Invoking command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
+[0.081s] [35m[1mScanning dependencies of target lis[0m
+[0.254s] [ 20%] [32mBuilding CXX object CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o[0m
+[0.255s] [ 60%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
+[0.256s] [ 60%] [32mBuilding CXX object CMakeFiles/lis.dir/src/blockArrangementSub.cpp.o[0m
+[0.265s] [ 80%] [32mBuilding CXX object CMakeFiles/lis.dir/src/StateSpace.cpp.o[0m
+[0.731s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:8[m[K,
+[0.732s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.732s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State)[m[K’:
+[0.732s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:33:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.733s]    33 |      StateSpace([01;35m[KState s[m[K) {}
+[0.733s]       |                 [01;35m[K~~~~~~^[m[K
+[0.733s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’:
+[0.734s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.734s]    34 |      StateSpace([01;35m[KState s[m[K, Moves m) {}
+[0.734s]       |                 [01;35m[K~~~~~~^[m[K
+[0.734s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.735s]    34 |      StateSpace(State s, [01;35m[KMoves m[m[K) {}
+[0.735s]       |                          [01;35m[K~~~~~~^[m[K
+[0.735s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’:
+[0.736s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.736s]    35 |      StateSpace([01;35m[KState s[m[K, Moves m, int f) {}
+[0.736s]       |                 [01;35m[K~~~~~~^[m[K
+[0.737s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.737s]    35 |      StateSpace(State s, [01;35m[KMoves m[m[K, int f) {}
+[0.737s]       |                          [01;35m[K~~~~~~^[m[K
+[0.738s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.738s]    35 |      StateSpace(State s, Moves m, [01;35m[Kint f[m[K) {}
+[0.738s]       |                                   [01;35m[K~~~~^[m[K
+[0.738s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setState(State)[m[K’:
+[0.739s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.739s]    38 |      void setState([01;35m[KState s[m[K) {};
+[0.740s]       |                    [01;35m[K~~~~~~^[m[K
+[0.740s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’:
+[0.741s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:39:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.742s]    39 |      void setMoves([01;35m[KMoves m[m[K) {};
+[0.742s]       |                    [01;35m[K~~~~~~^[m[K
+[0.742s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’:
+[0.744s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.744s]    40 |      void setFixedCount([01;35m[Kint f[m[K) {};
+[0.744s]       |                         [01;35m[K~~~~^[m[K
+[0.745s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KState StateSpace::getState() const[m[K’:
+[0.745s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:43:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.745s]    43 |      State getState() const {[01;35m[K}[m[K;
+[0.745s]       |                              [01;35m[K^[m[K
+[0.746s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KMoves StateSpace::getMoves() const[m[K’:
+[0.746s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:44:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.746s]    44 |      Moves getMoves() const {[01;35m[K}[m[K;
+[0.747s]       |                              [01;35m[K^[m[K
+[0.747s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kint StateSpace::getFixedCount() const[m[K’:
+[0.747s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:45:33:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.747s]    45 |      int getFixedCount() const {[01;35m[K}[m[K;
+[0.748s]       |                                 [01;35m[K^[m[K
+[0.748s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’:
+[0.748s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:53:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.749s]    48 |      bool operator<(const StateSpace &other) const {[01;35m[K}[m[K;
+[0.749s]       |                                                     [01;35m[K^[m[K
+[0.749s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.749s]    48 |      bool operator<([01;35m[Kconst StateSpace &other[m[K) const {};
+[0.750s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.750s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.750s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In constructor ‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’:
+[0.751s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:26:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.751s]    26 |      BFSAlgorithm([01;35m[Kstring pub_msg[m[K) {}
+[0.751s]       |                   [01;35m[K~~~~~~~^~~~~~~[m[K
+[0.751s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.752s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’:
+[0.752s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:65:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.752s]    29 |      vector<string> StringToVector(string pub_msg, char delim) {[01;35m[K}[m[K
+[0.753s]       |                                                                 [01;35m[K^[m[K
+[0.753s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.753s]    29 |      vector<string> StringToVector([01;35m[Kstring pub_msg[m[K, char delim) {}
+[0.754s]       |                                    [01;35m[K~~~~~~~^~~~~~~[m[K
+[0.754s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdelim[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.754s]    29 |      vector<string> StringToVector(string pub_msg, [01;35m[Kchar delim[m[K) {}
+[0.754s]       |                                                    [01;35m[K~~~~~^~~~~[m[K
+[0.755s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’:
+[0.755s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:55:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.756s]    32 |      string VectorToString(const State &state) const {[01;35m[K}[m[K
+[0.756s]       |                                                       [01;35m[K^[m[K
+[0.756s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.756s]    32 |      string VectorToString([01;35m[Kconst State &state[m[K) const {}
+[0.757s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[0.757s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’:
+[0.757s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.758s]    35 |      bool IsGoal(const State &current) const {[01;35m[K}[m[K
+[0.758s]       |                                               [01;35m[K^[m[K
+[0.758s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.759s]    35 |      bool IsGoal([01;35m[Kconst State &current[m[K) const {}
+[0.759s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[0.760s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’:
+[0.761s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:73:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.761s]    38 |      vector<StateSpace> getNextStates(const StateSpace &current) const {[01;35m[K}[m[K
+[0.761s]       |                                                                         [01;35m[K^[m[K
+[0.762s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.762s]    38 |      vector<StateSpace> getNextStates([01;35m[Kconst StateSpace &current[m[K) const {}
+[0.762s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[0.763s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’:
+[0.763s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:41:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.763s]    41 |      void countMatches([01;35m[KStateSpace &current[m[K) {}
+[0.764s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[0.764s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’:
+[0.764s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:44:29:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.764s]    44 |      Moves BFS_Algorithm() {[01;35m[K}[m[K
+[0.765s]       |                             [01;35m[K^[m[K
+[0.765s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:[m[K At global scope:
+[0.765s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:21:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’
+[0.766s]    21 | [01;31m[KBFSAlgorithm[m[K::BFSAlgorithm(string pub_msg)
+[0.766s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[0.766s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.766s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:26:6:[m[K [01;36m[Knote: [m[K‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’ previously defined here
+[0.767s]    26 |      [01;36m[KBFSAlgorithm[m[K(string pub_msg) {}
+[0.767s]       |      [01;36m[K^~~~~~~~~~~~[m[K
+[0.767s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:55:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’
+[0.768s]    55 | vector<string> [01;31m[KBFSAlgorithm[m[K::StringToVector(string pub_msg, char delim)
+[0.768s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[0.768s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.768s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:21:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’ previously defined here
+[0.769s]    29 |      vector<string> [01;36m[KStringToVector[m[K(string pub_msg, char delim) {}
+[0.769s]       |                     [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.769s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:63:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.770s]    63 | }[01;35m[K;[m[K
+[0.770s]       |  [01;35m[K^[m[K
+[0.770s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’
+[0.770s]    66 | string [01;31m[KBFSAlgorithm[m[K::VectorToString(const State &state) const
+[0.771s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[0.771s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.771s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:13:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’ previously defined here
+[0.772s]    32 |      string [01;36m[KVectorToString[m[K(const State &state) const {}
+[0.772s]       |             [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.772s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:76:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.772s]    76 | }[01;35m[K;[m[K
+[0.773s]       |  [01;35m[K^[m[K
+[0.773s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:79:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’
+[0.773s]    79 | bool [01;31m[KBFSAlgorithm[m[K::IsGoal(const State &current) const
+[0.774s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[0.774s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.774s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:11:[m[K [01;36m[Knote: [m[K‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’ previously defined here
+[0.774s]    35 |      bool [01;36m[KIsGoal[m[K(const State &current) const {}
+[0.775s]       |           [01;36m[K^~~~~~[m[K
+[0.775s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:94:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.776s]    94 | }[01;35m[K;[m[K
+[0.776s]       |  [01;35m[K^[m[K
+[0.777s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:97:20:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’
+[0.777s]    97 | vector<StateSpace> [01;31m[KBFSAlgorithm[m[K::getNextStates(const StateSpace &current) const
+[0.777s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[0.778s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.780s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:25:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’ previously defined here
+[0.780s]    38 |      vector<StateSpace> [01;36m[KgetNextStates[m[K(const StateSpace &current) const {}
+[0.780s]       |                         [01;36m[K^~~~~~~~~~~~~[m[K
+[0.781s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:152:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.781s]   152 | }[01;35m[K;[m[K
+[0.781s]       |  [01;35m[K^[m[K
+[0.782s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:155:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’
+[0.782s]   155 | void [01;31m[KBFSAlgorithm[m[K::countMatches(StateSpace &current)
+[0.782s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[0.782s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.783s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:41:11:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’ previously defined here
+[0.783s]    41 |      void [01;36m[KcountMatches[m[K(StateSpace &current) {}
+[0.783s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[0.784s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.784s]   185 | }[01;35m[K;[m[K
+[0.784s]       |  [01;35m[K^[m[K
+[0.784s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:188:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’
+[0.785s]   188 | Moves [01;31m[KBFSAlgorithm[m[K::BFS_Algorithm()
+[0.785s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[0.785s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.785s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:44:12:[m[K [01;36m[Knote: [m[K‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’ previously defined here
+[0.786s]    44 |      Moves [01;36m[KBFS_Algorithm[m[K() {}
+[0.786s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[0.786s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:222:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.787s]   222 | }[01;35m[K;[m[K
+[0.787s]       |  [01;35m[K^[m[K
+[0.787s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:225:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid BFSAlgorithm::compare()[m[K’
+[0.787s]   225 | void [01;31m[KBFSAlgorithm[m[K::compare()
+[0.788s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[0.788s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/BFSAlgorithm.cpp:9[m[K:
+[0.788s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:47:11:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid BFSAlgorithm::compare()[m[K’ previously defined here
+[0.789s]    47 |      void [01;36m[Kcompare[m[K() {}
+[0.789s]       |           [01;36m[K^~~~~~~[m[K
+[0.818s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.819s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State)[m[K’:
+[0.820s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:33:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.821s]    33 |      StateSpace([01;35m[KState s[m[K) {}
+[0.822s]       |                 [01;35m[K~~~~~~^[m[K
+[0.822s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’:
+[0.823s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.823s]    34 |      StateSpace([01;35m[KState s[m[K, Moves m) {}
+[0.823s]       |                 [01;35m[K~~~~~~^[m[K
+[0.824s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.824s]    34 |      StateSpace(State s, [01;35m[KMoves m[m[K) {}
+[0.824s]       |                          [01;35m[K~~~~~~^[m[K
+[0.825s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’:
+[0.825s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.826s]    35 |      StateSpace([01;35m[KState s[m[K, Moves m, int f) {}
+[0.826s]       |                 [01;35m[K~~~~~~^[m[K
+[0.827s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.830s]    35 |      StateSpace(State s, [01;35m[KMoves m[m[K, int f) {}
+[0.830s]       |                          [01;35m[K~~~~~~^[m[K
+[0.830s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.831s]    35 |      StateSpace(State s, Moves m, [01;35m[Kint f[m[K) {}
+[0.831s]       |                                   [01;35m[K~~~~^[m[K
+[0.831s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setState(State)[m[K’:
+[0.832s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.832s]    38 |      void setState([01;35m[KState s[m[K) {};
+[0.832s]       |                    [01;35m[K~~~~~~^[m[K
+[0.833s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’:
+[0.833s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:39:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.833s]    39 |      void setMoves([01;35m[KMoves m[m[K) {};
+[0.833s]       |                    [01;35m[K~~~~~~^[m[K
+[0.834s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’:
+[0.834s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.834s]    40 |      void setFixedCount([01;35m[Kint f[m[K) {};
+[0.835s]       |                         [01;35m[K~~~~^[m[K
+[0.835s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KState StateSpace::getState() const[m[K’:
+[0.835s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:43:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.836s]    43 |      State getState() const {[01;35m[K}[m[K;
+[0.836s]       |                              [01;35m[K^[m[K
+[0.836s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KMoves StateSpace::getMoves() const[m[K’:
+[0.837s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:44:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.837s]    44 |      Moves getMoves() const {[01;35m[K}[m[K;
+[0.837s]       |                              [01;35m[K^[m[K
+[0.837s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kint StateSpace::getFixedCount() const[m[K’:
+[0.838s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:45:33:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.838s]    45 |      int getFixedCount() const {[01;35m[K}[m[K;
+[0.838s]       |                                 [01;35m[K^[m[K
+[0.839s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’:
+[0.839s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:53:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.839s]    48 |      bool operator<(const StateSpace &other) const {[01;35m[K}[m[K;
+[0.839s]       |                                                     [01;35m[K^[m[K
+[0.840s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.840s]    48 |      bool operator<([01;35m[Kconst StateSpace &other[m[K) const {};
+[0.840s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.841s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:[m[K At global scope:
+[0.841s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:16:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KStateSpace::StateSpace()[m[K’
+[0.841s]    16 | [01;31m[KStateSpace[m[K::StateSpace() : state({}), move({}), fixedCount(0) {}
+[0.842s]       | [01;31m[K^~~~~~~~~~[m[K
+[0.842s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.842s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:32:6:[m[K [01;36m[Knote: [m[K‘[01m[KStateSpace::StateSpace()[m[K’ previously defined here
+[0.843s]    32 |      [01;36m[KStateSpace[m[K() {}
+[0.843s]       |      [01;36m[K^~~~~~~~~~[m[K
+[0.844s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:16:36:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[0.844s]    16 | StateSpace::StateSpace() : state({}[01;31m[K)[m[K, move({}), fixedCount(0) {}
+[0.844s]       |                                    [01;31m[K^[m[K
+[0.844s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:16:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[0.845s]    16 | StateSpace::StateSpace() : state({}), move({}[01;31m[K)[m[K, fixedCount(0) {}
+[0.845s]       |                                              [01;31m[K^[m[K
+[0.845s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:17:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KStateSpace::StateSpace(State)[m[K’
+[0.845s]    17 | [01;31m[KStateSpace[m[K::StateSpace(State s) : state(s), move({}), fixedCount(0) {}
+[0.846s]       | [01;31m[K^~~~~~~~~~[m[K
+[0.846s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.846s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:33:6:[m[K [01;36m[Knote: [m[K‘[01m[KStateSpace::StateSpace(State)[m[K’ previously defined here
+[0.847s]    33 |      [01;36m[KStateSpace[m[K(State s) {}
+[0.847s]       |      [01;36m[K^~~~~~~~~~[m[K
+[0.847s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:17:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[0.848s]    17 | StateSpace::StateSpace(State s) : state(s), move({}[01;31m[K)[m[K, fixedCount(0) {}
+[0.848s]       |                                                    [01;31m[K^[m[K
+[0.848s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:18:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’
+[0.849s]    18 | [01;31m[KStateSpace[m[K::StateSpace(State s, Moves m) : state(s), move(m), fixedCount(0) {}
+[0.849s]       | [01;31m[K^~~~~~~~~~[m[K
+[0.849s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.849s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:6:[m[K [01;36m[Knote: [m[K‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’ previously defined here
+[0.850s]    34 |      [01;36m[KStateSpace[m[K(State s, Moves m) {}
+[0.850s]       |      [01;36m[K^~~~~~~~~~[m[K
+[0.850s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:19:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’
+[0.851s]    19 | [01;31m[KStateSpace[m[K::StateSpace(State s, Moves m, int f) : state(s), move(m), fixedCount(f) {}
+[0.851s]       | [01;31m[K^~~~~~~~~~[m[K
+[0.851s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.851s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:6:[m[K [01;36m[Knote: [m[K‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’ previously defined here
+[0.852s]    35 |      [01;36m[KStateSpace[m[K(State s, Moves m, int f) {}
+[0.852s]       |      [01;36m[K^~~~~~~~~~[m[K
+[0.852s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:22:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid StateSpace::setState(State)[m[K’
+[0.853s]    22 | void [01;31m[KStateSpace[m[K::setState(State s) { state = s; };
+[0.853s]       |      [01;31m[K^~~~~~~~~~[m[K
+[0.853s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.854s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:38:11:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid StateSpace::setState(State)[m[K’ previously defined here
+[0.854s]    38 |      void [01;36m[KsetState[m[K(State s) {};
+[0.854s]       |           [01;36m[K^~~~~~~~[m[K
+[0.855s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:22:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.855s]    22 | void StateSpace::setState(State s) { state = s; }[01;35m[K;[m[K
+[0.855s]       |                                                  [01;35m[K^[m[K
+[0.856s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:23:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’
+[0.856s]    23 | void [01;31m[KStateSpace[m[K::setMoves(Moves m) { move = m; };
+[0.856s]       |      [01;31m[K^~~~~~~~~~[m[K
+[0.856s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.857s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:39:11:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’ previously defined here
+[0.857s]    39 |      void [01;36m[KsetMoves[m[K(Moves m) {};
+[0.857s]       |           [01;36m[K^~~~~~~~[m[K
+[0.858s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:23:49:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.858s]    23 | void StateSpace::setMoves(Moves m) { move = m; }[01;35m[K;[m[K
+[0.858s]       |                                                 [01;35m[K^[m[K
+[0.859s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:24:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’
+[0.859s]    24 | void [01;31m[KStateSpace[m[K::setFixedCount(int f) { fixedCount = f; };
+[0.859s]       |      [01;31m[K^~~~~~~~~~[m[K
+[0.860s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.861s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:11:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’ previously defined here
+[0.862s]    40 |      void [01;36m[KsetFixedCount[m[K(int f) {};
+[0.862s]       |           [01;36m[K^~~~~~~~~~~~~[m[K
+[0.862s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:24:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.862s]    24 | void StateSpace::setFixedCount(int f) { fixedCount = f; }[01;35m[K;[m[K
+[0.863s]       |                                                          [01;35m[K^[m[K
+[0.863s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:27:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KState StateSpace::getState() const[m[K’
+[0.863s]    27 | State [01;31m[KStateSpace[m[K::getState() const { return state; };
+[0.863s]       |       [01;31m[K^~~~~~~~~~[m[K
+[0.864s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.864s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:43:12:[m[K [01;36m[Knote: [m[K‘[01m[KState StateSpace::getState() const[m[K’ previously defined here
+[0.864s]    43 |      State [01;36m[KgetState[m[K() const {};
+[0.864s]       |            [01;36m[K^~~~~~~~[m[K
+[0.865s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:27:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.865s]    27 | State StateSpace::getState() const { return state; }[01;35m[K;[m[K
+[0.865s]       |                                                     [01;35m[K^[m[K
+[0.865s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:28:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KMoves StateSpace::getMoves() const[m[K’
+[0.865s]    28 | Moves [01;31m[KStateSpace[m[K::getMoves() const { return move; };
+[0.866s]       |       [01;31m[K^~~~~~~~~~[m[K
+[0.866s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.866s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:44:12:[m[K [01;36m[Knote: [m[K‘[01m[KMoves StateSpace::getMoves() const[m[K’ previously defined here
+[0.866s]    44 |      Moves [01;36m[KgetMoves[m[K() const {};
+[0.867s]       |            [01;36m[K^~~~~~~~[m[K
+[0.867s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:28:52:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.867s]    28 | Moves StateSpace::getMoves() const { return move; }[01;35m[K;[m[K
+[0.867s]       |                                                    [01;35m[K^[m[K
+[0.868s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:29:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint StateSpace::getFixedCount() const[m[K’
+[0.868s]    29 | int [01;31m[KStateSpace[m[K::getFixedCount() const { return fixedCount; };
+[0.868s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.868s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.869s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:45:10:[m[K [01;36m[Knote: [m[K‘[01m[Kint StateSpace::getFixedCount() const[m[K’ previously defined here
+[0.869s]    45 |      int [01;36m[KgetFixedCount[m[K() const {};
+[0.869s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[0.869s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:29:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.870s]    29 | int StateSpace::getFixedCount() const { return fixedCount; }[01;35m[K;[m[K
+[0.870s]       |                                                             [01;35m[K^[m[K
+[0.870s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:32:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’
+[0.870s]    32 | bool [01;31m[KStateSpace[m[K::operator<(const StateSpace &other) const
+[0.871s]       |      [01;31m[K^~~~~~~~~~[m[K
+[0.871s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:10[m[K:
+[0.871s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:11:[m[K [01;36m[Knote: [m[K‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’ previously defined here
+[0.871s]    48 |      bool [01;36m[Koperator[m[K<(const StateSpace &other) const {};
+[0.872s]       |           [01;36m[K^~~~~~~~[m[K
+[0.872s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/StateSpace.cpp:35:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.872s]    35 | }[01;35m[K;[m[K
+[0.872s]       |  [01;35m[K^[m[K
+[0.873s] make[2]: *** [CMakeFiles/lis.dir/build.make:76: CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o] Error 1
+[0.873s] make[2]: *** Waiting for unfinished jobs....
+[0.896s] make[2]: *** [CMakeFiles/lis.dir/build.make:102: CMakeFiles/lis.dir/src/StateSpace.cpp.o] Error 1
+[1.968s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:4[m[K,
+[1.968s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[1.969s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State)[m[K’:
+[1.969s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:33:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.969s]    33 |      StateSpace([01;35m[KState s[m[K) {}
+[1.969s]       |                 [01;35m[K~~~~~~^[m[K
+[1.970s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’:
+[1.970s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.970s]    34 |      StateSpace([01;35m[KState s[m[K, Moves m) {}
+[1.971s]       |                 [01;35m[K~~~~~~^[m[K
+[1.971s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.971s]    34 |      StateSpace(State s, [01;35m[KMoves m[m[K) {}
+[1.971s]       |                          [01;35m[K~~~~~~^[m[K
+[1.972s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’:
+[1.972s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.972s]    35 |      StateSpace([01;35m[KState s[m[K, Moves m, int f) {}
+[1.973s]       |                 [01;35m[K~~~~~~^[m[K
+[1.973s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.973s]    35 |      StateSpace(State s, [01;35m[KMoves m[m[K, int f) {}
+[1.974s]       |                          [01;35m[K~~~~~~^[m[K
+[1.974s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.974s]    35 |      StateSpace(State s, Moves m, [01;35m[Kint f[m[K) {}
+[1.975s]       |                                   [01;35m[K~~~~^[m[K
+[1.975s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setState(State)[m[K’:
+[1.975s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.976s]    38 |      void setState([01;35m[KState s[m[K) {};
+[1.976s]       |                    [01;35m[K~~~~~~^[m[K
+[1.976s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’:
+[1.976s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:39:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.976s]    39 |      void setMoves([01;35m[KMoves m[m[K) {};
+[1.977s]       |                    [01;35m[K~~~~~~^[m[K
+[1.977s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’:
+[1.977s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.977s]    40 |      void setFixedCount([01;35m[Kint f[m[K) {};
+[1.977s]       |                         [01;35m[K~~~~^[m[K
+[1.978s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KState StateSpace::getState() const[m[K’:
+[1.978s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:43:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.978s]    43 |      State getState() const {[01;35m[K}[m[K;
+[1.979s]       |                              [01;35m[K^[m[K
+[1.979s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KMoves StateSpace::getMoves() const[m[K’:
+[1.979s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:44:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.980s]    44 |      Moves getMoves() const {[01;35m[K}[m[K;
+[1.980s]       |                              [01;35m[K^[m[K
+[1.980s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kint StateSpace::getFixedCount() const[m[K’:
+[1.980s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:45:33:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.981s]    45 |      int getFixedCount() const {[01;35m[K}[m[K;
+[1.981s]       |                                 [01;35m[K^[m[K
+[1.981s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’:
+[1.981s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:53:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.982s]    48 |      bool operator<(const StateSpace &other) const {[01;35m[K}[m[K;
+[1.982s]       |                                                     [01;35m[K^[m[K
+[1.982s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.983s]    48 |      bool operator<([01;35m[Kconst StateSpace &other[m[K) const {};
+[1.983s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.983s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:5[m[K,
+[1.983s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[1.984s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In constructor ‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’:
+[1.984s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:26:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.984s]    26 |      BFSAlgorithm([01;35m[Kstring pub_msg[m[K) {}
+[1.984s]       |                   [01;35m[K~~~~~~~^~~~~~~[m[K
+[1.984s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:5[m[K,
+[1.985s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[1.985s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’:
+[1.985s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:65:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.986s]    29 |      vector<string> StringToVector(string pub_msg, char delim) {[01;35m[K}[m[K
+[1.986s]       |                                                                 [01;35m[K^[m[K
+[1.986s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.986s]    29 |      vector<string> StringToVector([01;35m[Kstring pub_msg[m[K, char delim) {}
+[1.986s]       |                                    [01;35m[K~~~~~~~^~~~~~~[m[K
+[1.987s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdelim[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.987s]    29 |      vector<string> StringToVector(string pub_msg, [01;35m[Kchar delim[m[K) {}
+[1.987s]       |                                                    [01;35m[K~~~~~^~~~~[m[K
+[1.987s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’:
+[1.988s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:55:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.988s]    32 |      string VectorToString(const State &state) const {[01;35m[K}[m[K
+[1.988s]       |                                                       [01;35m[K^[m[K
+[1.989s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.989s]    32 |      string VectorToString([01;35m[Kconst State &state[m[K) const {}
+[1.990s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[1.990s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’:
+[1.990s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.991s]    35 |      bool IsGoal(const State &current) const {[01;35m[K}[m[K
+[1.991s]       |                                               [01;35m[K^[m[K
+[1.991s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.991s]    35 |      bool IsGoal([01;35m[Kconst State &current[m[K) const {}
+[1.992s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[1.992s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’:
+[1.992s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:73:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.993s]    38 |      vector<StateSpace> getNextStates(const StateSpace &current) const {[01;35m[K}[m[K
+[1.993s]       |                                                                         [01;35m[K^[m[K
+[1.993s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.993s]    38 |      vector<StateSpace> getNextStates([01;35m[Kconst StateSpace &current[m[K) const {}
+[1.994s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.994s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’:
+[1.994s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:41:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.995s]    41 |      void countMatches([01;35m[KStateSpace &current[m[K) {}
+[1.995s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[1.995s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’:
+[1.996s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:44:29:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.996s]    44 |      Moves BFS_Algorithm() {[01;35m[K}[m[K
+[1.996s]       |                             [01;35m[K^[m[K
+[1.996s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:4[m[K,
+[1.997s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[1.997s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State)[m[K’:
+[1.997s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:33:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.997s]    33 |      StateSpace([01;35m[KState s[m[K) {}
+[1.998s]       |                 [01;35m[K~~~~~~^[m[K
+[1.998s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves)[m[K’:
+[1.998s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.999s]    34 |      StateSpace([01;35m[KState s[m[K, Moves m) {}
+[1.999s]       |                 [01;35m[K~~~~~~^[m[K
+[1.999s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:34:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.999s]    34 |      StateSpace(State s, [01;35m[KMoves m[m[K) {}
+[1.999s]       |                          [01;35m[K~~~~~~^[m[K
+[2.000s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In constructor ‘[01m[KStateSpace::StateSpace(State, Moves, int)[m[K’:
+[2.000s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.000s]    35 |      StateSpace([01;35m[KState s[m[K, Moves m, int f) {}
+[2.000s]       |                 [01;35m[K~~~~~~^[m[K
+[2.000s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.001s]    35 |      StateSpace(State s, [01;35m[KMoves m[m[K, int f) {}
+[2.001s]       |                          [01;35m[K~~~~~~^[m[K
+[2.001s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:35:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.001s]    35 |      StateSpace(State s, Moves m, [01;35m[Kint f[m[K) {}
+[2.001s]       |                                   [01;35m[K~~~~^[m[K
+[2.001s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setState(State)[m[K’:
+[2.002s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:38:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.002s]    38 |      void setState([01;35m[KState s[m[K) {};
+[2.002s]       |                    [01;35m[K~~~~~~^[m[K
+[2.002s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setMoves(Moves)[m[K’:
+[2.003s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:39:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.003s]    39 |      void setMoves([01;35m[KMoves m[m[K) {};
+[2.003s]       |                    [01;35m[K~~~~~~^[m[K
+[2.004s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kvoid StateSpace::setFixedCount(int)[m[K’:
+[2.004s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.004s]    40 |      void setFixedCount([01;35m[Kint f[m[K) {};
+[2.005s]       |                         [01;35m[K~~~~^[m[K
+[2.005s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KState StateSpace::getState() const[m[K’:
+[2.005s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:43:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.005s]    43 |      State getState() const {[01;35m[K}[m[K;
+[2.006s]       |                              [01;35m[K^[m[K
+[2.006s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[KMoves StateSpace::getMoves() const[m[K’:
+[2.006s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:44:30:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.007s]    44 |      Moves getMoves() const {[01;35m[K}[m[K;
+[2.007s]       |                              [01;35m[K^[m[K
+[2.007s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kint StateSpace::getFixedCount() const[m[K’:
+[2.007s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:45:33:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.008s]    45 |      int getFixedCount() const {[01;35m[K}[m[K;
+[2.008s]       |                                 [01;35m[K^[m[K
+[2.008s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:[m[K In member function ‘[01m[Kbool StateSpace::operator<(const StateSpace&) const[m[K’:
+[2.009s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:53:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.009s]    48 |      bool operator<(const StateSpace &other) const {[01;35m[K}[m[K;
+[2.009s]       |                                                     [01;35m[K^[m[K
+[2.009s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/StateSpace.h:48:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.010s]    48 |      bool operator<([01;35m[Kconst StateSpace &other[m[K) const {};
+[2.010s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.010s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:5[m[K,
+[2.011s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[2.011s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In constructor ‘[01m[KBFSAlgorithm::BFSAlgorithm(std::string)[m[K’:
+[2.011s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:26:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.011s]    26 |      BFSAlgorithm([01;35m[Kstring pub_msg[m[K) {}
+[2.012s]       |                   [01;35m[K~~~~~~~^~~~~~~[m[K
+[2.012s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:5[m[K,
+[2.012s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[2.012s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > BFSAlgorithm::StringToVector(std::string, char)[m[K’:
+[2.013s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:65:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.013s]    29 |      vector<string> StringToVector(string pub_msg, char delim) {[01;35m[K}[m[K
+[2.013s]       |                                                                 [01;35m[K^[m[K
+[2.013s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpub_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.014s]    29 |      vector<string> StringToVector([01;35m[Kstring pub_msg[m[K, char delim) {}
+[2.014s]       |                                    [01;35m[K~~~~~~~^~~~~~~[m[K
+[2.014s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:29:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdelim[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.014s]    29 |      vector<string> StringToVector(string pub_msg, [01;35m[Kchar delim[m[K) {}
+[2.014s]       |                                                    [01;35m[K~~~~~^~~~~[m[K
+[2.015s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::string BFSAlgorithm::VectorToString(const State&) const[m[K’:
+[2.015s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:55:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.015s]    32 |      string VectorToString(const State &state) const {[01;35m[K}[m[K
+[2.016s]       |                                                       [01;35m[K^[m[K
+[2.016s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:32:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.016s]    32 |      string VectorToString([01;35m[Kconst State &state[m[K) const {}
+[2.016s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[2.016s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kbool BFSAlgorithm::IsGoal(const State&) const[m[K’:
+[2.017s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.017s]    35 |      bool IsGoal(const State &current) const {[01;35m[K}[m[K
+[2.017s]       |                                               [01;35m[K^[m[K
+[2.017s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:35:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.018s]    35 |      bool IsGoal([01;35m[Kconst State &current[m[K) const {}
+[2.018s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[2.018s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kstd::vector<StateSpace> BFSAlgorithm::getNextStates(const StateSpace&) const[m[K’:
+[2.018s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:73:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.019s]    38 |      vector<StateSpace> getNextStates(const StateSpace &current) const {[01;35m[K}[m[K
+[2.019s]       |                                                                         [01;35m[K^[m[K
+[2.019s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:38:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.019s]    38 |      vector<StateSpace> getNextStates([01;35m[Kconst StateSpace &current[m[K) const {}
+[2.019s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.020s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[Kvoid BFSAlgorithm::countMatches(StateSpace&)[m[K’:
+[2.020s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:41:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.020s]    41 |      void countMatches([01;35m[KStateSpace &current[m[K) {}
+[2.020s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[2.020s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:[m[K In member function ‘[01m[KMoves BFSAlgorithm::BFS_Algorithm()[m[K’:
+[2.021s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/BFSAlgorithm.h:44:29:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.021s]    44 |      Moves BFS_Algorithm() {[01;35m[K}[m[K
+[2.021s]       |                             [01;35m[K^[m[K
+[2.021s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[2.021s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:[m[K In constructor ‘[01m[KblockArrangementSub::blockArrangementSub()[m[K’:
+[2.022s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:12:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[2.022s]    12 |   blockArrangementSub()[01;31m[K{[m[K}
+[2.022s]       |                        [01;31m[K^[m[K
+[2.022s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.022s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.022s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.023s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:1[m[K,
+[2.023s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[2.023s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[2.023s]  1193 |   [01;36m[KNode[m[K(
+[2.023s]       |   [01;36m[K^~~~[m[K
+[2.023s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.024s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[2.024s]    98 |   explicit [01;36m[KNode[m[K(
+[2.024s]       |            [01;36m[K^~~~[m[K
+[2.024s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[2.025s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[2.025s]    86 |   explicit [01;36m[KNode[m[K(
+[2.025s]       |            [01;36m[K^~~~[m[K
+[2.025s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.026s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/CPPsub_BlocksRearrange.cpp:2[m[K:
+[2.026s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:[m[K In member function ‘[01m[Kvoid blockArrangementSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.026s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:15:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.026s]    15 |   void topic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K) const {}
+[2.026s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.027s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[2.027s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:[m[K In constructor ‘[01m[KblockArrangementSub::blockArrangementSub()[m[K’:
+[2.027s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:12:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[2.027s]    12 |   blockArrangementSub()[01;31m[K{[m[K}
+[2.028s]       |                        [01;31m[K^[m[K
+[2.028s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.029s]                  from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:2[m[K:
+[2.029s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[2.029s]  1193 |   [01;36m[KNode[m[K(
+[2.029s]       |   [01;36m[K^~~~[m[K
+[2.029s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.030s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[2.030s]    98 |   explicit [01;36m[KNode[m[K(
+[2.030s]       |            [01;36m[K^~~~[m[K
+[2.031s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[2.032s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[2.032s]    86 |   explicit [01;36m[KNode[m[K(
+[2.032s]       |            [01;36m[K^~~~[m[K
+[2.033s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.033s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[2.033s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:[m[K In member function ‘[01m[Kvoid blockArrangementSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.033s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:15:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.034s]    15 |   void topic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K) const {}
+[2.034s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.034s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:[m[K At global scope:
+[2.034s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:11:42:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[2.034s]    11 | blockArrangementSub::blockArrangementSub [01;31m[K:[m[K Node("BlockArrange_subscriber") ()
+[2.035s]       |                                          [01;31m[K^[m[K
+[2.035s]       |                                          [32m[K::[m[K
+[2.035s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:11:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[2.036s]    11 | blockArrangementSub::blockArrangementSub : Node([01;31m[K"BlockArrange_subscriber"[m[K) ()
+[2.036s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.036s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:11:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[2.036s]    11 | blockArrangementSub::blockArrangementSub : Node[34m[K([m[K[01;31m[K"[m[K[32m[KBlockArrange_subscriber"[m[K) ()
+[2.037s]       |                                                [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.037s]       |                                                 [32m[K)[m[K
+[2.037s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:17:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid blockArrangementSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’
+[2.037s]    17 | void [01;31m[KblockArrangementSub[m[K::topic_callback(const std_msgs::msg::String::SharedPtr msg) const
+[2.038s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.038s] In file included from [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/blockArrangementSub.cpp:5[m[K:
+[2.038s] [01m[K/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/src/CPPsub_BlocksRearrange/src/../include/CPPsub_BlocksRearrange/blockArrangementSub.h:15:8:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid blockArrangementSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’ previously defined here
+[2.038s]    15 |   void [01;36m[Ktopic_callback[m[K(const std_msgs::msg::String::SharedPtr msg) const {}
+[2.038s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.423s] make[2]: *** [CMakeFiles/lis.dir/build.make:63: CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o] Error 1
+[2.433s] make[2]: *** [CMakeFiles/lis.dir/build.make:89: CMakeFiles/lis.dir/src/blockArrangementSub.cpp.o] Error 1
+[2.434s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lis.dir/all] Error 2
+[2.434s] make: *** [Makefile:141: all] Error 2
+[2.437s] Invoked command in '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/install/initialGoalpub_py:/opt/ros/foxy /usr/bin/cmake --build /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CPPsub_BlocksRearrange -- -j8 -l8
