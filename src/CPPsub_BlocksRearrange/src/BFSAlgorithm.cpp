@@ -62,11 +62,38 @@ vector<string> BFSAlgorithm::StringToVector(string pub_msg, char delim)
 	return strVector;
 };
 
-// function to compress state vectors to strings to ease comparisons
+// function to compress state vectors to strings (with sorted stacks meaning
+// if state = DB/AC is will be AC/DB (same block congiuration but sorted to prevent repetition
 string BFSAlgorithm::VectorToString(const State &state) const
 {
+	State s = state; // to store sorted state
+	bool swapped = 0;
+	// bubble sort for the stacks of state (to insure AD/BC is same as BC/AD)
+	for (int i = 0; i < s.size() - 1; ++i)
+	{
+		swapped = 0;
+		for (int j = 0; j < s.size() - i - 1; ++j)
+		{
+			if (s[j + 1].empty()) // moving empty states to the end of the state vector
+				continue;
+			else if (s[j].empty()) // moving empty states to the end of the state vector
+			{
+				swap(s[j], s[j + 1]); // swaping the two stacks of the state vector
+				swapped = 1;
+			}
+			else if (s[j][0].letter > s[j + 1][0].letter) // comparing the tables (elements on the table) and sorting accourrding to them
+			{
+				swap(s[j], s[j + 1]); // swaping the two stacks of the state vector
+				swapped = 1;
+			}
+		}
+		if (!swapped)
+			break; // already sorted
+	}
+
+	// now to convert the sorted state vector so now AB/BC is same as BC/AD (avoid reapting states)
 	string wholeState;
-	for (const auto &stack : state) // avoid copying stacks + not changing it
+	for (const auto &stack : s) // avoid copying stacks + not changing it
 	{
 		for (auto blocks : stack)
 			wholeState += blocks.letter;

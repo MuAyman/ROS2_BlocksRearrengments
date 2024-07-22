@@ -6,7 +6,6 @@
 #include "../include/CPPsub_BlocksRearrange/BFSAlgorithm.h"
 #include "../include/CPPsub_BlocksRearrange/StateSpace.h"
 
-
 using std::placeholders::_1;
 
 class blockArrangementSub : public rclcpp::Node
