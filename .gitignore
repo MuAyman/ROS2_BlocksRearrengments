@@ -1,0 +1,44 @@
+# Ignore build and install directories
+/build/
+/install/
+
+# Ignore log files
+/log/
+
+# Ignore local configuration files
+/local_setup.*
+
+# Ignore CMake build files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore compiled Python files
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore Python virtual environments
+/venv/
+/env/
+/.virtualenv/
+
+# Ignore VS Code specific files
+/.vscode/
+
+# Ignore colcon build files
+/colcon/
+
+# Ignore ROS2 workspace files
+/.ros/
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files created by text editors
+*~
+*.swp
+*.swo
+
