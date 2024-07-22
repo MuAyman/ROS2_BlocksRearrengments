@@ -1,8 +1,0 @@
-source;share/CPPsub_BlocksRearrange/hook/cmake_prefix_path.ps1
-source;share/CPPsub_BlocksRearrange/hook/cmake_prefix_path.dsv
-source;share/CPPsub_BlocksRearrange/hook/cmake_prefix_path.sh
-source;share/CPPsub_BlocksRearrange/local_setup.bash
-source;share/CPPsub_BlocksRearrange/local_setup.dsv
-source;share/CPPsub_BlocksRearrange/local_setup.ps1
-source;share/CPPsub_BlocksRearrange/local_setup.sh
-source;share/CPPsub_BlocksRearrange/local_setup.zsh

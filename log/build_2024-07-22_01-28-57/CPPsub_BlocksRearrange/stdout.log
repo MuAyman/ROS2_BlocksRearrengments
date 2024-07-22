@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target lis[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/lis.dir/src/StateSpace.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/lis.dir/src/CPPsub_BlocksRearrange.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/lis.dir/src/BFSAlgorithm.cpp.o[0m
