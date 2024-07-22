@@ -431,3 +431,31 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea487/fast && /usr/bin/make -f CMakeFiles/cmTC_ea487.dir/build.make CMakeFiles/cmTC_ea487.dir/build
+make[1]: Entering directory '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea487.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_ea487.dir/CheckIncludeFile.c.o   -c "/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_ea487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea487.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_ea487.dir/CheckIncludeFile.c.o  -o cmTC_ea487 
+make[1]: Leaving directory '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_156ae/fast && /usr/bin/make -f CMakeFiles/cmTC_156ae.dir/build.make CMakeFiles/cmTC_156ae.dir/build
+make[1]: Entering directory '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_156ae.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_156ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_156ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_156ae.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_156ae.dir/CheckFunctionExists.c.o  -o cmTC_156ae  -lpthread 
+make[1]: Leaving directory '/media/muayman17/New/Muhammad/BrightSkies Test/ROS2_BlocksRearrengments/build/CMakeFiles/CMakeTmp'
+
+
+
